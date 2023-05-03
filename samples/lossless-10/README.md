@@ -1,0 +1,1 @@
+aomenc -p 1 --ivf -w 176 -h 144 -b 10 --input-bit-depth=10 --end-usage=q --cq-level=22 --cpu-used=6 --threads=64  --kf-max-dist=15  --lossless=1 --enable-cdef=0 --enable-order-hint=0 --enable-global-motion=0 --enable-warped-motion=0 --loopfilter-control=0 -o lossless-10.ivf  /home/dwls/dev/av1-vulkan-video-cts/samples/B/clip-b.yuv

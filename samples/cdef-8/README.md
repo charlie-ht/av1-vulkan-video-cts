@@ -1,0 +1,1 @@
+aomenc -p 1 --ivf -w 176 -h 144 -b 8 --end-usage=q --cq-level=22 --cpu-used=6 --threads=64  --kf-max-dist=15 --lossless=0 --enable-cdef=1 --enable-order-hint=0 --enable-global-motion=0 --enable-warped-motion=0 --loopfilter-control=0 -o cdef-8.ivf  /home/dwls/dev/av1-vulkan-video-cts/samples/A/clip-a.yuv
